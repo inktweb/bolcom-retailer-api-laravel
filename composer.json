@@ -1,0 +1,40 @@
+{
+    "name": "inktweb/bolcom-retailer-api-laravel",
+    "description": "Laravel bridge for inktweb/bolcom-retailer-api-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inktweb",
+            "email": "info@inktweb.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.3 || ^8.0",
+        "inktweb/bolcom-retailer-api-php": "^0.1",
+        "illuminate/support": "^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inktweb\\Bolcom\\RetailerApi\\Laravel\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/inktweb/bolcom-retailer-api-php"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Inktweb\\Bolcom\\RetailerApi\\Laravel\\ServiceProvider"
+            ],
+            "aliases": {
+                "BolcomRetailerApi": "Inktweb\\Bolcom\\RetailerApi\\Laravel\\Facade"
+            }
+        }
+    }
+}
