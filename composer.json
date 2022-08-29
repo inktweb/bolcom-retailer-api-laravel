@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.3 || ^8.0",
-        "inktweb/bolcom-retailer-api-php": "^0.4",
+        "inktweb/bolcom-retailer-api-php": "^0.6",
         "illuminate/support": "^7.0 || ^8.0"
     },
     "autoload": {
