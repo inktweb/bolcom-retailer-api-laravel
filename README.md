@@ -62,11 +62,11 @@ From there, you can access the various client endpoints.
 
 ```php
 // Get the order with id 'foo-bar' with the default account.
-BolcomRetailerApi::orders()->getOrder('foo-bar');
+BolcomRetailerApi::retailer()->orders()->getOrder('foo-bar');
 
 // Get a paginated list of orders from the account 'some-account'.
-BolcomRetailerApi::account('some-account')->getOrders();
+BolcomRetailerApi::account('some-account')->retailer()->orders()->getOrders();
 
 // You can also use the facade directly.
-\Inktweb\Bolcom\RetailerApi\Laravel\Facade::account('my-other-company')->getOrders();
+\Inktweb\Bolcom\RetailerApi\Laravel\Facade::account('my-other-company')->retailer()->orders()->getOrders();
 ```
