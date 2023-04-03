@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "inktweb/bolcom-retailer-api-php": "^0.7",
+        "inktweb/bolcom-retailer-api-php": "^0.8",
         "illuminate/support": "^8.0"
     },
     "autoload": {
@@ -29,7 +29,7 @@
     "prefer-stable": true,
     "extra": {
         "branch-alias": {
-            "dev-master": "0.4.x-dev"
+            "dev-master": "0.5.x-dev"
         },
         "laravel": {
             "providers": [
