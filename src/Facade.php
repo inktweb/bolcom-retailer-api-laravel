@@ -20,7 +20,7 @@ class Facade extends LaravelFacade
     }
 
     /**
-     * @return Client|Clients\V7\Client|Clients\V8\Client
+     * @return Client|Clients\V7\Client|Clients\V8\Client|Clients\V9\Client
      * @throws ConfigException
      * @throws BindingResolutionException
      */
@@ -31,7 +31,7 @@ class Facade extends LaravelFacade
     }
 
     /**
-     * @return Client|Clients\V7\Client|Clients\V8\Client
+     * @return Client|Clients\V7\Client|Clients\V8\Client|Clients\V9\Client
      * @throws BindingResolutionException
      * @throws ConfigException
      */
