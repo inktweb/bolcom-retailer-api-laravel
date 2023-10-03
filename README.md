@@ -21,7 +21,7 @@ php artisan vendor:publish --tag=bolcom-retailer-api
 The default configuration looks like this:
 
 ```php
-use Inktweb\Bolcom\RetailerApi\Clients\V7\Client;
+use Inktweb\Bolcom\RetailerApi\Clients\V10\Client;
 
 return [
     'client' => [
@@ -42,7 +42,7 @@ return [
 ```
 
 `client.class` is the client class used to create the API client. In the example
-above, the Bol.com V7 API client will be used. If you don't publish the configuration file,
+above, the Bol.com V10 API client will be used. If you don't publish the configuration file,
 the default client could change between major versions of this package. All other keys are
 hopefully self-explanatory.
 

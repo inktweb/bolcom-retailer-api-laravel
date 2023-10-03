@@ -1,6 +1,6 @@
 <?php
 
-use Inktweb\Bolcom\RetailerApi\Clients\V7\Client;
+use Inktweb\Bolcom\RetailerApi\Clients\V10\Client;
 
 return [
     'client' => [
